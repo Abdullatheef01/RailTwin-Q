@@ -11,6 +11,7 @@ venv/
 ENV/
 
 # Application logs
+temp_auto_push.bat
 *.log
 
 # Large datasets and model weights
@@ -19,10 +20,11 @@ ENV/
 *.jsonl
 
 # IDE configurations
-.vscode/
 .idea/
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+.gitignore
+branch_structure.json
